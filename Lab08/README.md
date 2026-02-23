@@ -58,3 +58,10 @@ principle that separates a reproducible scientific finding from a dashboard metr
 under scrutiny. In an economy where algorithmic decisions govern credit, hiring, and resource
 allocation, the cost of a false positive is not academic. Hypothesis testing is how we ensure that
 what looks like signal *is* signal.
+
+Netflix's Return-Aware Experimentation framework treats the significance threshold as a dynamic
+business parameter calibrated to the cost asymmetry of each decision — a high-stakes, irreversible
+change demands a stricter bar than a low-cost, easily-rolled-back tweak. This challenges the
+academic default of p < 0.05, which applies a uniform threshold regardless of the economic
+consequences of being wrong. The practical takeaway is that α is a risk budget, not a constant —
+and every experiment design embeds an implicit business judgment that should be made explicitly.
